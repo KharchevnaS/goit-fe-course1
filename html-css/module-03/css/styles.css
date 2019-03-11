@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;}
+  *,
+  *::before,
+  *::after
+  {
+    box-sizing: inhereit;}
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+    .container {
+      width: 900px;
+      margin: 0 auto;
+      color: dimgrey;
+    }
+    
+    /* navigation */ 
+    .navigation-hat {
+      padding-top: 77px;
+      padding-bottom: 102px;
+    }
+    .site-navigation  {
+      margin: 0;
+      padding: 0;
+      width: 900px;
+      text-align: center;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+  }
+    .site-navigation li {
+      display: inline-block; 
+    }
+    .site-navigation li {
+      margin-right: 125px;
+    }
+    .site-navigation li:last-child {
+      margin-right: 0px;
+    }
+    .site-navigation a:hover
+    .site-navigation a:focus {
+      color: aqua;
+    }
+
+    /* text and images */
+    .visually-hidden:not(:focus):not(:active), input[type="checkbox"].visually-hidden, input[type="radio"].visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+   }
+   .stories {
+     font-size: 0px;
+   }
+   .stories p {
+    font-size: 14px;
+    margin-bottom: 137px;
+  }
+  .stories p:nth-last-child(-n+2) {
+    margin-bottom: 53px;
+  }
+   .stories h2 {
+     font-size: 30px;
+     margin-bottom: 37px;
+   }
+
+
+   .stories {
+     width: 420px;
+     margin: 0px;
+     padding: 0px;
+   }
+   .stories {
+     display: inline-block;
+     margin-right: 56px;
+   }
+   .stories:nth-child(2n) {
+     margin-right: 0px;
+   }
+ .load-more {
+   margin: 0 0 70px 0;
+   border: 1px solid black;
+   padding: 20px 35px;
+   width: 162 px;
+   font-size: 20px;
+   line-height: 24px;
+   color: dimgray;
+   background-color: white;
+   text-align: center;
+ }
+
+.buttom {
+     text-align: center;
+   }
+
+ 
