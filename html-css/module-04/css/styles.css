@@ -54,8 +54,6 @@ img {
 }
 
 .site-navigation {
-  margin-top: 8px;
-  padding: 0;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-transform: uppercase;
@@ -97,6 +95,10 @@ img {
   color: #1abc9c;
 
 }
+.logo {float: left; }
+.site-navigation {float: right; }
+.site-navigation__item {float: left; }
+
 
 /* FEATURED PRODUCTS */
 
@@ -152,37 +154,31 @@ img {
 
 .product-hover:hover {
   background-color: rgb(136, 117, 206);
-  opacity: 0,5;
+  opacity: 0, 5;
 }
 
 .product_price {
   width: 255px;
   height: 30px;
   color: #fff;
-
+  background-color: #323232;
 }
 
 
 .product_name {
   width: 200px;
   height: 30px;
-  background-color: #323232;
-  text-align: left;
+  text-indent: 1rem;
   font-size: 18px;
   line-height: 32px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
-.product_name:hover {
-  background-color: rgb(136, 117, 206);
-  
-}
-
 .price {
   width: 55px;
   height: 30px;
-  background-color: #8c8c8c;
+  background-color: rgba(255, 255, 255, 0.5);
   float: right;
   margin-top: -30px;
   text-align: center;
@@ -192,10 +188,14 @@ img {
 
 }
 
-.price:hover {
-  background-color: rgb(136, 117, 206);
-
+.product-list:hover .product_name {
+  background-color: #1abc9c;
 }
+
+.product-list:hover .price {
+  background-color: #7fd9c7;
+}
+
 
 /* LATEST-NEWS */
 
