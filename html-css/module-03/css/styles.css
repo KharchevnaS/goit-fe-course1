@@ -118,7 +118,8 @@ input[type="radio"].visually-hidden {
 .lifestyle {
   font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
-  color: silver text-transform: uppercase;
+  color: silver;
+  text-transform: uppercase;
   display: block;
   margin-bottom: 30px;
 }
