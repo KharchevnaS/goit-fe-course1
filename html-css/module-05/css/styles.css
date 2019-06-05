@@ -21,56 +21,50 @@ img {
   content: "";
   clear: both;
 }
+body {
+  background-color: #e9f0fd;
+}
 
 .container {
   width: 1110px;
   margin: 0 auto;
-  background-color: #e9f0fd;
   
+
 }
 
 /* navigation */
 .navigation-hat {
   padding-top: 43px;
   padding-bottom: 38px;
-  
+
 }
+
 .nav-container {
   --h: 37px;
   height: var(--h);
   line-height: var(--h);
-  }
+  overflow: hidden;
+}
 
 
 .Mart {
-  text-transform: uppercase;
   display: inline-block;
-  text-decoration: none;
-  font-size: 30px;
-  color: #515151;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  vertical-align: middle;
 }
 
 .Mart:hover,
 .Mart:focus {
-  color: #1abc9c;
-}
-
-
-.Mart::first-letter {
-  color: #1abc9c;
+  background: none;
 }
 
 .site-navigation {
-  /* text-align: center; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-transform: uppercase;
   float: right;
   list-style: none;
   color: #515151;
+  overflow: hidden;
   text-decoration: none;
-/* vertical-align: middle; */
 
 }
 
@@ -104,13 +98,23 @@ img {
 
 /* AFFORDABLE PARIS TOURS */
 
+.slider_wrapper {
+  background-image: url(../img/girls.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  /* position: relative; */
+}
+
 .slider {
-position: relative;
- width: 1110px;
- --h3: 600px; 
- margin: auto;
+  position: relative;
+  width: 1110px;
+  --h3: 600px;
+  margin: auto;
 
 }
+
 .button {
   position: absolute;
   /* display: inline-block; */
@@ -118,16 +122,20 @@ position: relative;
   width: 105px;
   height: 105px;
   font-size: 50px;
-  background-color: #1abc9c;
+  background-color: rgba(26, 188, 156, 0.3);
   border: none;
-  top: 50%;
-  /* transform: translateY(50%); */
+  top: 255px;
+ 
   z-index: 1;
-  
+}
+
+.button:hover {
+  background-color: rgb(26, 188, 156);
 }
 
 .left {
   left: 0;
+  
 }
 
 .right {
@@ -138,10 +146,13 @@ position: relative;
   margin: 0;
   padding: 0;
   list-style: none;
+  /* --h3: 600px; */
 }
+
 .slides-tours {
   position: relative;
 }
+
 .tours {
   font-size: 48px;
   color: floralwhite;
@@ -152,7 +163,7 @@ position: relative;
   /* transform: translate(50%,50%); */
   margin: 0;
 
-  
+
 }
 
 .slides-image {
@@ -160,6 +171,7 @@ position: relative;
   object-fit: cover;
   width: 100%;
 }
+
 .city-tours {
   position: absolute;
   top: 300px;
@@ -187,7 +199,7 @@ position: relative;
   text-align: center;
   line-height: var(--h4);
   position: relative;
-  
+
 }
 
 .product::after {
@@ -198,9 +210,11 @@ position: relative;
   position: absolute;
   border: 1px solid #1abc9c;
   background-color: #1abc9c;
-  bottom: 80px;
+  bottom: 75px;
+  
   left: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
 }
 
 .new-collection {
@@ -223,67 +237,86 @@ position: relative;
 
 
 .overlay {
-position: absolute;
-background-color: #737373;
-width: 100%;
-height: 282px;
-opacity: 0;
+  position: absolute;
+  background-color: #737373;
+  width: 100;
+  height: 282px;
+  opacity: 0;
 
 }
 
 .product-list:hover .overlay {
-  opacity: 0.4;
+  opacity: 0.6;
 }
+
+/* .link:hover {
+  background-color: rgba(26, 188, 156, 0.3);
+} */
+
 
 .item {
   position: absolute;
   width: 50px;
   height: 50px;
   border: 1px solid floralwhite;
- 
+
 }
+
+
 .heart {
   top: 90px;
   left: 45px;
 }
+
 .arrow {
   top: 90px;
   left: 105px;
-  border: 1px solid  #7fd9c7;
-  
+
 }
+
 .clock {
   top: 90px;
   left: 160px;
 }
+
 .item-market {
-  
   position: absolute;
   width: 165px;
   height: 50px;
   top: 150px;
   left: 45px;
-
   text-transform: uppercase;
   color: #fff;
   font-size: 14px;
-  line-height: 32px;
-  
-}
-.img-hover {
- transform: translate(50%, 50%);
- 
+  /* line-height: 32px; */
+  --h: 50px;
+  height: var(--h);
+  line-height: var(--h);
 }
 
-.product-list:hover .arrow {
-background: #7fd9c7;
-opacity: 1;
+.add-to-cart {
+  padding-left: 2rem;
+  text-decoration: none;
 }
+
+.img-hover {
+  transform: translate(50%, 50%);
+  float: left;
+
+}
+.overlay:hover {
+  background-color: #1abc9c;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .product-list:hover .item-market {
   background: #555252;
   opacity: 1;
   border: 1px solid floralwhite;
-  }
+}
 
 .product-list:nth-child(4n+1) {
   margin-left: 0;
@@ -310,7 +343,7 @@ opacity: 1;
   --h: 30px;
   height: var(--h);
   line-height: var(--h);
-  }
+}
 
 
 .price {
@@ -343,15 +376,15 @@ opacity: 1;
   background-color: #323232;
 }
 
-.container-footer  {
-    width: 1110px;
-    
-    margin: 0 auto;
-    color: #fff;
-    font-size: 16px;
-    --h2: 90px;
-    height: var(--h2);
-    line-height: var(--h2);
-    text-align: center;
+.container-footer {
+  width: 1110px;
+
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16px;
+  --h2: 90px;
+  height: var(--h2);
+  line-height: var(--h2);
+  text-align: center;
 
 }
