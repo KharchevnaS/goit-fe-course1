@@ -218,19 +218,19 @@
   }
 
   .twitter {
-      background-image: url(../img/little\ pics/.pinterest);
+      background-image: url(../img/little_pics/pinterest.png);
       background-position: center;
       background-repeat: no-repeat;
   }
 
   .pinterest {
-      background-image: url(../img/little\ pics/.twitter);
+      background-image: url(../img/little_pics/twitter.png);
       background-position: center;
       background-repeat: no-repeat;
   }
 
   .instagram {
-      background-image: url(../img/little\ pics/.instagram);
+      background-image: url(../img/little_pics/instagram.png);
       background-position: center;
       background-repeat: no-repeat;
   }
