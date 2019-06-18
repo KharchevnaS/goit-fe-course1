@@ -19,7 +19,7 @@
     margin: 0 auto 120px;
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
+ 
 }
 
 .logo:hover,
@@ -83,11 +83,7 @@
     list-style: none;
     margin-bottom: 123px;
 }
-/* .services_item {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-} */
+
 
 .item_wrapper {
     display: flex;
@@ -104,7 +100,7 @@
     display: flex;
 }
 
-.item_wrapper::before {
+.e-commerce::before {
     /* background-color: transparent; */
     display: flex;
     border-radius: 50%;
@@ -114,7 +110,7 @@
     justify-content: center;
     align-items: center;
   
-}
+} 
 
 .responsive {
     background-image: url(../img/IconLaptop.png);
