@@ -1,14 +1,256 @@
-body {
-    font-family: Unisans;
-    font-size: 50px;
-    font-weight: 500;
-}
-.wrapper {
-    min-height: 100vh;
-    padding: 30px 0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Montserrat', sans-serif;
+
 }
 
-.container {
-    max-width: 1000px;
+.wrapper {
+    width: 940px;
     margin: 0 auto;
 
+}
+
+/* NAVIGATION  */
+
+.navigation {
+    padding: 30px 0 0 0;
+    margin: 0 auto 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.logo:hover,
+.logo:focus {
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 45px 0 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #222222;
+}
+
+.nav-item:last-child {
+    margin: 0;
+}
+
+.nav-item a:hover, 
+.nav-item a:focus {
+    color: #fed751;
+    text-decoration: none;
+}
+
+
+/* SERVICES */
+
+.services_1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services_2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    color: #777777;
+    margin-bottom: 50px;
+    font-family: 'Mali', cursive;
+}
+.services_list {
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 123px;
+}
+/* .services_item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.item_wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.e-commerce {
+    background-image: url(../img/IconBasket.png);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+}
+
+.item_wrapper::before {
+    /* background-color: transparent; */
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.responsive {
+    background-image: url(../img/IconLaptop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.security {
+    background-image: url(../img/IconLocked.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.name_block {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.text_block {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+    font-family: 'Mali', cursive;
+}
+
+/* CONTACT US */
+
+
+.contact_us {
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.contact_1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 25px;
+
+}
+
+.contact_2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    color: #777777;
+    margin-bottom: 50px;
+    font-family: 'Mali', cursive;
+    padding-bottom: 78px;
+}
+
+.input {
+    width: 455px;
+    height: 50px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.input:last-child {
+    margin-bottom: 0;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.message {
+    height: 210px;
+    width: 455px;
+    text-transform: uppercase;
+    justify-content: top;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+
+}
+
+input:valid {
+    border-color: green;
+    background: #ffffff;
+}
+
+input:invalid {
+    border-color: red;
+    background: #ffffff;
+
+}
+
+.contact_items {
+    display: flex;
+    flex-direction: column;
+}
+.button {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.send_message {
+    width: 240px;
+    height: 66px;
+    background-color: #fed751;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-bottom: 115px;
+
+}
