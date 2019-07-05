@@ -40,6 +40,7 @@
 
     .navigation {
         background-image: url(../img/Tablet_BG.png);
+        width: 100%;
  
     }
 
@@ -129,6 +130,7 @@
 
     .navigation {
         background-image: url(../img/Desktop_BG.png);
+        width: 100%;
     
     }
 

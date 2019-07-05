@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: font-family: 'Montserrat', sans-serif;
-    outline: 1px solid red;
+    
 }
 
 .wrapper {
@@ -17,6 +17,7 @@
 
 .navigation {
     background-image: url(../img/Rectangle_1.png);
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
     color: #fff;
     background-repeat: no-repeat;
@@ -33,6 +34,9 @@
 }
 
 .nav-item a {
+    border: 2px solid transparent;
+    padding: 11px 17px;
+    border-radius: 19px;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
