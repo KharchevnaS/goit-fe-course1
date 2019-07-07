@@ -2,22 +2,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
 .wrapper {
-    width: 320px;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 
 }
-
-/* NAVIGATION  */
-
-.navigation {
-    background-image: url(../img/Rectangle_1.png);
+.container_fluid {
     width: 100%;
+    min-height: 540px;
+    background-image: url(../img/Rectangle_1.png);
     background-color: rgba(0, 0, 0, 0.9);
     color: #fff;
     background-repeat: no-repeat;
@@ -25,6 +23,8 @@
     background-size: cover;
 
 }
+
+/* NAVIGATION  */
 
 .nav-list {
     display: flex;
