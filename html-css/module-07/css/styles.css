@@ -2,8 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
-  
+    font-family: 'Montserrat';
 }
 
 .container_fluid {
@@ -216,7 +215,6 @@
     font-weight: bold;
     padding-left: 20px;
     box-sizing: border-box;
-    /* margin: 14px 0; */
     display: block;
     outline: 4px solid transparent;
     outline-offset: -2px;
@@ -240,7 +238,6 @@ input[name="name"]:focus:valid {
 
 .contact-input {
     box-sizing: border-box;
-    /* margin: 14px 0; */
     width: 455px;
     display: block;
     outline: 4px solid transparent;
