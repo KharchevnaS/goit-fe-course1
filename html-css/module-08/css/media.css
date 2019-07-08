@@ -40,13 +40,17 @@
 
     .container_fluid {
         background-image: url(../img/Tablet_BG.png);
-        width: 100%;
         min-height: 700px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
  
     }
+    .navigation {
+        min-width: 768px;
+        margin: auto;
+    }
+
 
     .tablet_logo {
         display: flex;
@@ -132,13 +136,16 @@
         min-width: 940px;
     }
 
-    .navigation {
+    .container_fluid {
         background-image: url(../img/Desktop_BG.png);
-        width: 100%;
         min-height: 700px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+    }
+    .navigation {
+        min-width: 940px;
+        margin: auto;
     }
 
     .tablet_logo {

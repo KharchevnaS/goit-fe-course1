@@ -11,8 +11,10 @@
     margin: 0 auto;
 
 }
+
+/* NAVIGATION  */
+
 .container_fluid {
-    width: 100%;
     min-height: 540px;
     background-image: url(../img/Rectangle_1.png);
     background-color: rgba(0, 0, 0, 0.9);
@@ -20,10 +22,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
-
-/* NAVIGATION  */
+.navigation {
+    min-width: 320px;
+    margin: auto;
+}
 
 .nav-list {
     display: flex;
