@@ -9,3 +9,15 @@
          url('../fonts/montserrat-v13-latin-regular.woff') format('woff'); 
 
   } 
+
+  @font-face {
+    font-family: 'Mali';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/mali-v2-latin-regular.eot'); 
+    src: local('Mali Regular'), local('Mali-Regular'),
+         url('../fonts/mali-v2-latin-regular.woff2') format('woff2'), 
+         url('../fonts/mali-v2-latin-regular.woff') format('woff');
+   
+  } 
+  
