@@ -3,13 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-}
-
-.wrapper {
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-
+    
 }
 
 /* NAVIGATION  */
@@ -23,6 +17,7 @@
     background-position: center;
     background-size: cover;
 }
+
 .navigation {
     min-width: 320px;
     margin: auto;
@@ -30,6 +25,7 @@
 
 .nav-list {
     display: flex;
+    padding-bottom: 120px;
     justify-content: center;
     list-style: none;
 
@@ -58,6 +54,10 @@
     color: #ffffff;
 }
 
+.logo {
+    padding-bottom: 40px;
+}
+
 .logo:hover,
 .logo:focus {
     text-decoration: none;
@@ -68,7 +68,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .top2 {
@@ -93,7 +93,7 @@
     background-color: #ff4e50;
     font-size: 14px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
     border-radius: 19px;
     margin-bottom: 154px;
     text-decoration: none;
@@ -103,11 +103,11 @@
 /* PARTNERS */
 
 .partners_1 {
-    font-size: 40px;
-    font-weight: bold;
-    color: #222222;
     text-align: center;
-    margin-bottom: 20px;
+    padding: 70px 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #222;
 }
 
 .partners_list {
@@ -115,7 +115,7 @@
 }
 
 .partners_item {
-    width: 217px;
+    width: 320px;
     margin: 0 auto;
     position: relative;
 }
@@ -133,15 +133,15 @@
 .partner::after {
     content: "";
     display: block;
-    background-position: center;
-    background-repeat: no-repeat;
+    position: absolute;
+    top: 90px;
+    right: 100px;
     width: 32px;
     height: 32px;
     border-radius: 50%;
     border: 3px solid #fff;
-    position: absolute;
-    top: 90px;
-    right: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bradley::after {
@@ -175,6 +175,7 @@
 
 .text_block {
     margin-bottom: 20px;
+    padding: 0 30px;
     text-align: center;
     font-size: 14px;
     color: #777777;
