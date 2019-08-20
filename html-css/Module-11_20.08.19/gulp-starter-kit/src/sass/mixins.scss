@@ -1,0 +1,12 @@
+@mixin bg-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+// @mixin bg-image ($repeat: no-repeat, $position: center, $size: cover) {
+// background-repeat: $repeat;
+// background-position: $position;
+// background-size: $size;
+// }

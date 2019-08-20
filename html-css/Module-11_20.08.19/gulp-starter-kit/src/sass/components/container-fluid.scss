@@ -1,0 +1,39 @@
+.container-fluid {
+    height: 1000px;
+    background-image: url(../images/img/background/BG.png);
+    @include bg-image;
+}
+
+    @media (-webkit-min-device-pixel-ratio: 2) {
+// (-o-min-device-pixel-ratio: 2/1),
+// (min-resolution: 192dpi),
+// (min-resolution: 2dppx) 
+    .container-fluid {
+        height: 1000px;
+        background-image: url(../images/img/background/BG@2x.png);
+        @include bg-image;
+
+    }
+
+}
+
+.container-fluid__title {
+    text-align: center;
+    margin-top: 172px;
+    color: $primary-white-color;
+
+}
+
+.container-fluid--text {
+    font-size: 72px;
+    font-family: $secondary-font-stack;
+    line-height: 1;
+}
+
+.container-fluid--name {
+    font-size: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 122px;
+    margin-bottom: 0;
+}

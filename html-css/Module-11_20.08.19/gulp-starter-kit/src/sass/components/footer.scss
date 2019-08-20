@@ -1,0 +1,43 @@
+
+.page-footer {
+    border-top: 1px solid $secondary-btn-color;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 0 12px;
+}
+
+.page-footer--text {
+    line-height: 50px;
+    margin-right: auto;
+    font-size: $main-font-size;
+
+}
+
+.page-footer--text2 {
+    color: rgb(243, 129, 129);
+}
+
+.page-footer__input-email {
+    height: 40px;
+    width: 230px;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: $secondary-btn-color;
+    border: 1px solid $secondary-btn-color;
+}
+
+input[type="email"] {
+    padding-left: 20px;
+    color: $secondary-btn-color;
+}
+
+.subscribe {
+    height: 40px;
+    width: 150px;
+    text-transform: uppercase;
+    background-color: $secondary-color;
+    color: $primary-white-color;
+    border: none;
+    font-size: $main-font-size;
+}

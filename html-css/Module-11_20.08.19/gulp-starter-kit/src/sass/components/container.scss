@@ -1,0 +1,200 @@
+
+.container {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.container-services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.container--text {
+    margin: 0 auto 25px;
+    font-size: 24px;
+    font-family: $secondary-font-stack;
+}
+
+
+
+.container--title {
+    margin: 0 auto 115px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 2px;
+        background-color: $secondary-background-color;
+        margin: 45px auto 0;
+    }
+}
+
+.container__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.container__row--top {
+    margin-bottom: 110px;
+}
+
+
+.container-services__blocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 40px;
+}
+
+.container-services--img {
+    margin-right: 30px;
+    width: 39px;
+    height: 39px;
+}
+
+.name_block {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.text_block {
+    font-size: 15px;
+}
+
+
+/* TEAM SECTION */
+
+
+.container--description {
+    font-size: 15px;
+    padding: 0 120px 0 120px;
+    margin-bottom: 80px;
+}
+
+
+.container-team {
+    position: relative;
+}
+
+.container-team__img {
+    width: 380px;
+    height: 470px;
+    -webkit-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    transition: all 400ms linear;
+    margin: 0 auto 30px;
+}
+
+.cardImg {
+    position: absolute;
+
+&:hover .container-team__social {
+    -webkit-transform: translate(-10px, -15px);
+    -ms-transform: translate(-10px, -15px);
+    transform: translate(-10px, -15px);
+    cursor: pointer;
+}
+}
+
+.container-team__social {
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(239, 137, 138, 0.8)), to(rgba(216, 190, 106, 0.8)));
+    background: -o-linear-gradient(top, rgba(239, 137, 138, 0.8), rgba(216, 190, 106, 0.8));
+    background: linear-gradient(to bottom, rgba(239, 137, 138, 0.8), rgba(216, 190, 106, 0.8));
+    opacity: 0;
+    cursor: pointer;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 1;
+        padding: 70px;
+        -webkit-transition: all 200ms linear;
+        -o-transition: all 200ms linear;
+        transition: all 200ms linear;
+    }
+}
+
+
+
+.container-team--transition {
+    -webkit-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.container-team__img:hover {
+    -webkit-transform: translate(-10px, -15px);
+    -ms-transform: translate(-10px, -15px);
+    transform: translate(-10px, -15px);
+    -webkit-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+    cursor: pointer;
+    -webkit-box-shadow: 15px 15px 5px 2px $secondary-color;
+    box-shadow: 15px 15px 5px 2px $secondary-color;
+}
+
+
+
+.container-team__social--links {
+    display: flex;
+    width: 58px;
+    height: 58px;
+    -webkit-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+    background-color: #fce38a;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-team__social svg {
+    display: block;
+    width: 50%;
+    height: 50%;
+    align-self: center;
+    fill: $secondary-background-color;
+
+    &:hover svg {
+        fill: $secondary-color;
+    }
+}
+
+.container-team--name {
+    text-transform: uppercase;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.container-team--position {
+    text-align: center;
+    margin: 0 auto 85px;
+    text-transform: capitalize;
+}
