@@ -20,6 +20,26 @@ const rename = require('gulp-rename');
 const server = require('browser-sync').create();
 const sequence = require('run-sequence');
 
+gulp.task('lint:css', (done) => {
+  stylelint.lint({
+    files: `${__dirname}/src/scss/**/*.scss`,
+    formatter: 'string', console: true
+  })
+    .then(function(data) {
+      if(data.output) {
+        process.stdout.write(data.output.toString({ colors: true }) + '\n\n');
+        console.log(chalk.red('  lint:css failed with violations.\n'));
+        done();
+        process.exit(1);
+      }
+      done();
+    })
+    .catch(function(err) {
+      console.error(err.stack);
+        done(err);
+    });
+});
+
 gulp.task('html', () => {
   return gulp
     .src('./src/*.html')

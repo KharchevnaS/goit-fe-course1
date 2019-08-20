@@ -384,8 +384,6 @@ template {
   color: #333333;
 }
 
-/* components */
-
 .container-fluid {
   height: 1000px;
   background-image: url(../images/img/background/BG.png);
@@ -565,7 +563,6 @@ template {
 }
 
 .cardImg:hover .container-team__social {
-  -webkit-transform: translate(-10px, -15px);
   transform: translate(-10px, -15px);
   cursor: pointer;
 }
@@ -594,7 +591,6 @@ template {
 }
 
 .container-team__img:hover {
-  -webkit-transform: translate(-10px, -15px);
   transform: translate(-10px, -15px);
   transition: all 200ms linear;
   cursor: pointer;
@@ -675,7 +671,7 @@ input[type="email"] {
   font-size: 14px;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .container-fluid {
     height: 1000px;
     background-image: url(../images/img/background/BG@2x.png);

@@ -40,11 +40,13 @@
     "gulp-sass": "^4.0.1",
     "gulp-svgstore": "^7.0.0",
     "gulp-uglify": "^3.0.1",
-    "run-sequence": "^2.2.1"
+    "gulp-stylelint": "^9.0.0",
+    "run-sequence": "^2.2.1",
+    "stylelint": "^10.1.0"
   },
   "dependencies": {
-    "gulp-stylelint": "^9.0.0",
-    "stylelint": "^10.1.0"
+    "browserslist": "^4.6.6",
+    "caniuse-lite": "^1.0.30000989"
   },
   "description": ""
 }
