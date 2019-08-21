@@ -17,8 +17,8 @@ const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 const rename = require('gulp-rename');
-const server = require('browser-sync').create();
 const sequence = require('run-sequence');
+const server = require('browser-sync').create();
 
 gulp.task('lint:css', (done) => {
   stylelint.lint({
