@@ -432,7 +432,7 @@ template {
 }
 
 .page-nav__logo--title:hover {
-  color: #f38181;
+  color: #e5e5e5;
   transition: all 100ms linear;
 }
 
@@ -442,7 +442,7 @@ template {
   list-style: none;
 }
 
-.site-navigation--item a {
+.site-navigation__item a {
   display: inline-block;
   list-style: none;
   margin: 0 0 0 60px;
@@ -455,10 +455,10 @@ template {
   font-size: 14px;
 }
 
-.site-navigation--item a:hover {
+.site-navigation__item a:hover {
   transition: all 100ms linear;
-  color: #f38181;
-  border-bottom: 2px solid #f38181;
+  color: #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
 }
 
 .learn_more {
