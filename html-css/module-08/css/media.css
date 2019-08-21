@@ -79,6 +79,7 @@
         margin-bottom: 154px;
     }
 
+
     .partners {
         justify-content: center;
     }
@@ -102,6 +103,7 @@
         width: 374px;
         margin-right: 0;
         margin-left: 0;
+        padding-bottom: 56px;
     }
 
     .one {
@@ -120,152 +122,145 @@
         order: 1;
         padding-left: 10px;
         padding-right: 128px;
-            /* margin-right: 20px; */
+        /* margin-right: 20px; */
     }
 
     .four {
         order: 4;
         padding-left: 10px;
         padding-right: 128px;
-            /* margin-right: 20px; */
+        /* margin-right: 20px; */
     }
 
-    .br .partner::after {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 90px;
-        right: 70px;
-        width: 32px;
-        height: 32px;
-        border-radius: 50%;
-        border: 3px solid #fff;
-        background-position: center;
-        background-repeat: no-repeat;
+    .partner {
+        width: 120px;
+        margin: 0 auto;
     }
 
     .text_block {
-        padding: 0 20px;
-        margin-bottom: 0;
-    }
+            padding: 0 20px;
+            margin-bottom: 0;
+        }
 
     .other {
-        margin-top: 20px;
-    }
-}
-
-@media (min-width: 940px) {
-    .wrapper {
-        min-width: 920px;
+            margin-top: 20px;
+        }
     }
 
-    .container_fluid {
-        background-image: url(../img/Desktop_BG.png);
-        min-height: 700px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
+    @media (min-width: 940px) {
+        .wrapper {
+            min-width: 920px;
+        }
 
-    .navigation {
-        min-width: 920px;
-        margin: auto;
-    }
+        .container_fluid {
+            background-image: url(../img/Desktop_BG.png);
+            min-height: 700px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
 
-    .tablet_logo {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
+        .navigation {
+            min-width: 920px;
+            margin: auto;
+        }
+
+        .tablet_logo {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+        }
+
+        .nav-list {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        .nav-item a {
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .nav-item:first-child {
+            margin-right: 39px;
+        }
+
+        .top1 {
+            font-size: 52px;
+            margin-top: 153px;
+            line-height: 1;
+            margin-bottom: 20px;
+        }
+
+        .top2 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 34px;
+            padding: 0 52px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .partners_item {
+            width: 220px;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .partners_list {
+            display: flex;
+            margin-top: 36px;
+        }
+
+        .partners_item:not(:last-child) {
+            margin-right: 20px;
+        }
+
+        .partners_1 {
+            margin-top: 70px;
+        }
+
+        .one {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 20px;
+        }
+
+        .two {
+            order: 2;
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 20px;
+        }
+
+        .three {
+            order: 1;
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 20px;
+        }
+
+        .four {
+            order: 4;
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 0;
+        }
+
+        .partner::after {
+            right: 60px;
+        }
+
+        .text_block {
+            margin-bottom: 0;
+            padding: 0;
+        }
+
+        .other {
+            margin-top: 38px;
+        }
 
     }
-
-    .nav-list {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-    }
-
-    .nav-item a {
-        text-decoration: none;
-        font-size: 14px;
-        font-weight: bold;
-        color: #ffffff;
-    }
-
-    .nav-item:first-child {
-        margin-right: 39px;
-    }
-
-    .top1 {
-        font-size: 52px;
-        margin-top: 153px;
-        line-height: 1;
-        margin-bottom: 20px;
-    }
-
-    .top2 {
-        font-size: 24px;
-        text-align: center;
-        margin-bottom: 34px;
-        padding: 0 52px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-    .partners_item {
-        width: 220px;
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-    .partners_list {
-        display: flex;
-        margin-top: 36px;
-    }
-    .partners_item:not(:last-child) {
-        margin-right: 20px;
-    }
-
-    .partners_1 {
-        margin-top: 70px;
-    }
-
-    .one {
-        padding-right: 0;
-        padding-left: 0;
-        margin-right: 20px;
-    }
-
-    .two {
-        order: 2;
-        padding-right: 0;
-        padding-left: 0;
-        margin-right: 20px;
-    }
-
-    .three {
-        order: 1;
-        padding-right: 0;
-        padding-left: 0;
-        margin-right: 20px;
-    }
-
-    .four {
-        order: 4;
-        padding-right: 0;
-        padding-left: 0;
-        margin-right: 0;
-    }
-    .partner::after { 
-        right: 60px;
-    }
-
-    .text_block {
-        margin-bottom: 0;
-        padding: 0;
-    }
-
-    .other {
-        margin-top: 38px;
-    }
-
-}
