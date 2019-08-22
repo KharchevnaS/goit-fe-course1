@@ -7,7 +7,6 @@
  }
 
  @media (min-width: 768px) {
-
     .container-fluid {
         background-image: url(../img/Tablet_BG.png);
         min-height: 700px;
@@ -100,7 +99,7 @@
 
 @media (min-width: 940px) {
     .wrapper {
-        min-width: 920px;
+        max-width: 920px;
     }
 
     .container-fluid {
