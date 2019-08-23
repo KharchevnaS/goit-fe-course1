@@ -81,13 +81,13 @@
     
 }
 
-.container-fluid--text {
+.container-fluid__title--text {
     font-size: 72px;
     font-family: 'Kaushan Script', cursive;
     line-height: 1;
 }
 
-.container-fluid--name {
+.container-fluid__title--name {
     font-size: 150px;
     font-weight: bold;
     text-transform: uppercase;
@@ -154,11 +154,11 @@
 }
 
 
-.container-services__blocks {
+.blocks {
     display: flex;
     padding: 0 40px;
 }
-.container-services--img {
+.container-services__blocks--img {
     margin-right: 30px;
     width: 39px;
     height: 39px;
@@ -185,7 +185,7 @@
 }
 
 
-.container-team {
+.team {
     position: relative;
 }
 
@@ -219,7 +219,7 @@
     padding: 70px;
     transition: all 200ms linear;
 }
-.container-team--transition {
+.container-team__social--transition {
     transition: all 200ms linear;
 }
 .container-team__img:hover {
@@ -237,7 +237,7 @@
     cursor: pointer;
 }
 
-.container-team__social--links {
+.container-team__links--icon {
     display: flex;
     width: 58px;
     height: 58px;
@@ -246,6 +246,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .container-team__social svg {
     display: block;
     width: 50%;
@@ -272,7 +273,7 @@
 
 /* FOOTER */
 
-.page-footer {
+.footer {
     border-top: 1px solid rgb(229, 229, 229);
     display: flex;
     padding: 10px 0 12px;
